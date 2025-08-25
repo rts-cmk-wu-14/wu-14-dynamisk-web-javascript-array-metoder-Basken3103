@@ -39,6 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i catsArray er en kat som hedder "Bagheera".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4a", ...)
+    let foundCat = catsArray.find(cat => cat === "Bageheera");
+    console.log(foundCat);
+    // Svaret er undefined
+
+
 
 
     // Opgave 4b
