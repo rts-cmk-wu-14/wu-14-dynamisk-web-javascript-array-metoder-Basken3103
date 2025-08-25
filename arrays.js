@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i dogsArray er en hund som hedder "Baxter".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3b", ...)
+    console.log(dogsArray.filter((dog) => dog === "Baxter").length > 0);
+    // Svaret er true
 
 
     //     Opgave 4a
