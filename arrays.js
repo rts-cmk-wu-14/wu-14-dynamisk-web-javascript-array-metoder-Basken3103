@@ -87,6 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Opgave 7b
     // Find ud af hvilket index "Blåbær" har i fruitsArray.
     // Udskriv indexet i konsollen.
+    console.log(fruitsArray.indexOf("Blåbær"));
+    // Outputtet er -1, da Blåbær ikke eksistere i fruitsArray.
+
+
 
 
     // Opgave 8
