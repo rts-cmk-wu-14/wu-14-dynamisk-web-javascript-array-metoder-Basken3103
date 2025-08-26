@@ -98,6 +98,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
     // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
     //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+    dogsArray = dogsArray.filter(dog => dog !== "Polly");
+    console.log(dogsArray);
+    // Svaret er ['Barney', 'Molly', 'Baxter', 'Buddy', 'Suki', 'Watson']
+
+
+
 
 
 }) // ends DOMContentLoaded
