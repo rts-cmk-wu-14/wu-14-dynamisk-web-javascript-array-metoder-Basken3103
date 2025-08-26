@@ -70,6 +70,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // (Sådan her: BarneyMollyBaxter...)
     // Udskriv strengen konsollen:
     // console.log("Opgave 6", ...)
+    const allDogs = dogsArray.join("");
+    console.log(allDogs);
+
 
 
     //     Opgave 7a
